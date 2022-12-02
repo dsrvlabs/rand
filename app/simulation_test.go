@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dsrvlabs/love/app"
-	"github.com/dsrvlabs/love/cmd"
+	"github.com/dsrvlabs/rand/app"
+	"github.com/dsrvlabs/rand/cmd"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"

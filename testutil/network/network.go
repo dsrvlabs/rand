@@ -25,9 +25,9 @@ import (
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ccvconsumertypes "github.com/cosmos/interchain-security/x/ccv/consumer/types"
-	"github.com/dsrvlabs/love/app"
-	"github.com/dsrvlabs/love/cmd"
-	"github.com/dsrvlabs/love/testutil"
+	"github.com/dsrvlabs/rand/app"
+	"github.com/dsrvlabs/rand/cmd"
+	"github.com/dsrvlabs/rand/testutil"
 	types1 "github.com/tendermint/tendermint/abci/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 )
@@ -85,7 +85,7 @@ func DefaultConfig() network.Config {
 		GenesisState:  app.ModuleBasics.DefaultGenesis(encoding.Marshaler),
 		TimeoutCommit: 2 * time.Second,
 		ChainID:       "chain-" + tmrand.NewRand().Str(6),
-		// Some changes are introduced to make the tests run as if love is a standalone chain.
+		// Some changes are introduced to make the tests run as if rand is a standalone chain.
 		// This will only work if NumValidators is set to 1.
 		NumValidators:   1,
 		BondDenom:       sdk.DefaultBondDenom,

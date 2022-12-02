@@ -142,7 +142,7 @@ func NewRootCmd(
 
 	rootCmd := &cobra.Command{
 		Use:   appName + "d",
-		Short: "Strange + Love = The Best Consumer Chains of Game of Chains",
+		Short: "RAND can provide random number for the Consumer Chains",
 		PersistentPreRunE: func(cmd *cobra.Command, _ []string) error {
 			// set the default command outputs
 			cmd.SetOut(cmd.OutOrStdout())
