@@ -1,4 +1,4 @@
-module github.com/dsrvlabs/love
+module github.com/dsrvlabs/rand
 
 go 1.18
 
