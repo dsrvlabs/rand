@@ -38,15 +38,15 @@
       "balances": [
         {
           "address": "cosmos16h4y2kjnax4s9vwfn87tpl37emy7h4hhg3wn69",
-          "coins": [{ "amount": "1000000000000000", "denom": "ulove" }]
+          "coins": [{ "amount": "1000000000000000", "denom": "urand" }]
         },
         {
           "address": "cosmos1rhvj25tutkld9p43y6w8pdfhcfzk270dc76tmn",
-          "coins": [{ "amount": "1000000000000000", "denom": "ulove" }]
+          "coins": [{ "amount": "1000000000000000", "denom": "urand" }]
         },
         {
           "address": "cosmos1f9k0728rcngqj7p2eeqk27v8dw5sw5ccydx77j",
-          "coins": [{ "amount": "1000000000000000", "denom": "ulove" }]
+          "coins": [{ "amount": "1000000000000000", "denom": "urand" }]
         }
       ],
       "denom_metadata": [],
@@ -77,7 +77,7 @@
       "provider_client_state": null,
       "provider_consensus_state": null
     },
-    "crisis": { "constant_fee": { "amount": "1000", "denom": "ulove" } },
+    "crisis": { "constant_fee": { "amount": "1000", "denom": "urand" } },
     "evidence": { "evidence": [] },
     "feegrant": { "allowances": [] },
     "ibc": {
@@ -140,7 +140,7 @@
     "upgrade": {},
     "vesting": {}
   },
-  "chain_id": "love-1",
+  "chain_id": "rand-1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -155,6 +155,6 @@
     "validator": { "pub_key_types": ["ed25519"] },
     "version": {}
   },
-  "genesis_time": "2022-11-26T00:00:00.000000000Z",
+  "genesis_time": "2022-12-03T00:00:00.000000000Z",
   "initial_height": "1"
 }
